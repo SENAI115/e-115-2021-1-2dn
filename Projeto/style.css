@@ -1,7 +1,153 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
+/* Modelo do Site */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+body{
+    background: rgb(39, 77, 83);
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.site{  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+    background: whitesmoke;
+}
+
+/* Cabecalho do Site */
+
+.cabeca{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    width: 80%;
+}
+
+.barra-pesquisa{
+    padding: 7.5px;
+    width: 97%;
+    border-radius: 10px;
+}
+
+.botao-pesquisa{
+    margin-left: 10px;
+    width: 50px;
+    height: 45px;
+    border-radius: 10px;
+    color: whitesmoke;
+    background: rgb(64, 187, 206);
+}
+
+/* Cabeçalho do Invocador */
+
+.corpo{
+    width: 100%
+}
+
+.icone-invocador{
+    border-radius: 5px;
+}
+
+.cabecalho-invocador{
+    display: flex;
+    margin: 10px;
+    background: rgb(64, 187, 206);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.nome-invocador{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background: whitesmoke;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.elo-invocador{
+    width: 100%;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+/* Gráficos de Vitória */
+
+.conteudo{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.conteudo-graficos{
+    height: auto;
+    width: 250px;
+    background: black;
+    margin-left: 10px;
+}
+
+.imagem-graficos{
+    width: 250px;
+    padding: 1px;
+}
+
+/* Conteúdo Principal */
+
+.teste-conteudo{
+    margin-left: 10px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo-maestria{
+    text-align: center;
+}
+
+.nome-campeao{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.imagem{
+    width: 400px;
+    height: 250px;
+    margin: 3px;
+}
+
+.info-maestria{
+    text-align: center;
+}
+
+/* Footer Section */
+
+.rodape {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    height: 30px;
+}
+  
+.rodape p {
+    color: whitesmoke;
 }

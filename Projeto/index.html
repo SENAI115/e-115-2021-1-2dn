@@ -1,13 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>API League of Legends</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>API League of Legends</title>
 </head>
 <body>
-    <script src="script.js"></script>
+
+  <header class="cabeca">
+    <div class="cabecalho">
+      <input class="barra-pesquisa" type="search" placeholder="Pesquisar nome de invocador" id="pesquisa">
+      <input class="botao-pesquisa" type="image" src="Imagem/icone-pesquisar.png" alt="submit">
+    </div>
+  </header>
+
+  <main class="principal">
+    <div class="site">
+      <div class="corpo">
+        <div class="cabecalho-invocador">
+            <img class="icone-invocador" src="Imagem/kayn-azul-icone.jpg">
+          <div class="info-invocador">
+              <h2 class="nome-invocador">Itachi do Capão</h2>
+            <div class="elo-invocador">
+              <p>Elo: Ouro I </p>
+              <p>Os capitães de Shyvana</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="conteudo">
+          <div class="conteudo-graficos">
+            <div class="graficos">
+              <img class="imagem-graficos" src="Imagem/elo.png">
+              <img class="imagem-graficos" src="Imagem/grafico-vitoria.png">
+              <img class="imagem-graficos" src="Imagem/ultimo-campeoes.png">
+
+            </div>
+          </div>
+          
+
+          <div class="teste-conteudo">
+            <div class="conteudo-principal">
+             
+              <div class="card">
+                <p class="nome-campeao"><span>Riven</span></p>
+                <img class="imagem" src="Imagem/riven_emissaria_luz.jpg">
+                <p class="info-maestria">202.658 pts</p>
+                <p class="info-maestria">Melhor nota: A</p>
+              </div>
+
+              <div class="card">
+                <p class="nome-campeao">Lee Sin</p>
+                <img class="imagem" src="Imagem/lee_sin_curtindo_verao.jpg">
+                <p class="info-maestria">214.355 pts</p>
+                <p class="info-maestria">Melhor nota: S+</p>
+              </div>
+
+              <div class="card">
+                <p class="nome-campeao">Yasuo</p>
+                <img class="imagem" src="Imagem/yasuo_emissario_escuridao.jpg">
+                <p class="info-maestria">162.525 pts</p>
+                <p class="info-maestria">Melhor nota: B+</p>
+              </div>
+
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>SENAI Suiço-Brasileira 2021 © Todos os direitos reservados </p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
