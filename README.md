@@ -22,5 +22,3 @@ Trabalho 2 - Consumo de API
 
 Para acessar TODOS os projetos finalizados, inclusive aqueles que não são web confira o nosso [repositório principal](https://github.com/SENAI115/e-115-2021-1-2dn/tree/main) 
 
-
-Teste
